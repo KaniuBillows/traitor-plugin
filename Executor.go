@@ -1,4 +1,4 @@
-package traitor_plugin
+package exectuor
 
 import (
 	"github.com/dop251/goja"

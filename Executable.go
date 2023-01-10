@@ -1,6 +1,8 @@
-package traitor_plugin
+package exectuor
+
+import "github.com/dop251/goja"
 
 type Executable interface {
-	Require() map[string]any
+	Require(exec *Executor) func(runtime *goja.Runtime, module *goja.Object)
 	GetName() string
 }
