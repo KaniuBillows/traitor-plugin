@@ -1,4 +1,4 @@
-package exectuor
+package executor
 
 import (
 	"github.com/dop251/goja"
